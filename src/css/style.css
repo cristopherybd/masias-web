@@ -1,0 +1,249 @@
+/*
+  DESARROLLADOR: Cristopher Davis Ramirez Salvo
+  EMPRESA: YOUR BEST DEV EIRL
+  TEL: 934643192
+  FB: YOUR BEST DEV
+
+*/
+
+
+/*
+  GLOBAL STYLES
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  HEADER STYLES
+*/
+.menu-top{
+  background: #008097;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-top div{
+  height: 100%;
+  display: flex;
+
+}
+.social-links-top-header{
+  max-width: 240px;
+}
+.social-links{
+  width: 100%;
+}
+
+ul{
+  margin-bottom: 0px;
+  padding-left: 0px;
+  width: 100%;
+}
+.social-links li{
+  list-style: none;
+  border-left: 2px solid #fff;
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-links:last-child{
+  border-right: 2px solid #fff;
+}
+.social-links li a{
+  text-decoration: none;
+  color: #fff;
+}
+.text-top-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ESTILOS DEL MENU PRINCIPAL */
+.menu-prin{
+  background-color: #33964C;
+  
+ }
+ .menu-principal{
+  display: flex;
+  width: 100%;
+ }
+ .menu-links-principal{
+  display: flex;
+  width: 100%;
+ }
+ .menu-links-principal ul{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .menu-links-principal ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  max-height: 80px;
+  font-size: 15px;
+
+ }
+ .logo{
+  min-height: 160px;
+  padding: 30px 45px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px #0000003B;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: -80px;
+  opacity: 1;
+  
+ }
+ 
+/* SLIDERS */
+.slider-home{
+  display: flex;
+  min-height: 88vh;
+  background-color: #dddddd;
+}
+.sliders{
+  padding-top: 100px;
+}
+.slider-1{
+  display: flex;
+}
+.slider-img img{
+  max-height: 720px;
+}
+.slider-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.slider-content span{
+  font-size: 17px;
+}
+.slider-content h2{
+  font-size: 65px;
+  font-weight: 900;
+}
+.slider-content h2 span{
+  background-color: #33964C;
+  color: #fff;
+  font-size: 65px;
+}
+h2{
+  font-size: 65px;
+  font-weight: 900;
+}
+h2 span{
+  background-color: #33964C;
+  color: #fff;
+  font-size: 65px;
+}
+.slider-content p{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* CARDS STYLES */
+.cards-1{
+  padding: 100px 0px;
+}
+.card-style-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 0px 15px #00000014;
+  border-radius: 9px;
+  padding: 30px;
+  margin-right: 30px;
+  width: calc(93% / 3);
+}
+.card-style-1:hover{
+  height: 400px;
+}
+.card-style-1:last-child{
+  margin-right: 0px;
+}
+
+.card-style-2{
+  margin: 60px 0px;
+  padding: 50px 90px;
+  box-shadow: 0px 0px 19px #00000061;
+  border-radius: 4px;
+  background-color: #33964C;
+  display: flex;
+}
+.card-style-2 p{
+  width: 35%;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*CARD TEAM*/
+.myteam-style-card{
+  display: flex;
+  flex-direction: column;
+}
+.myteam-style-card span{
+  background: #28A247 0% 0% no-repeat padding-box;
+  border-radius: 14px;
+  margin-top: -20px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+
+/*EVENT LIST HOME*/
+.events-section{
+  padding: 80px 0px;
+  background-color: rgb(17, 135, 165);
+  min-height: 1020px;
+}
+.card-style-3{
+  background-color: #008097;
+  border-radius: 6px;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  padding: 45px 60px;
+  margin-top: 80px;
+}
+.comment-ligth{
+  margin-top: 34px;
+  margin-bottom: 52px;
+  border-left: solid 10px #fff;
+  padding-left: 30px;
+  color: #fff;
+}
+.comment-ligth p{
+  font-size: 25px;
+}
+
+
+/* ESTILOS DEL FOOTER */
+
+footer{
+  background-color: #28A247;
+  padding: 40px 0px;
+  border-bottom: solid 20px #3A4442;
+}
+.social-foo{
+  display:flex;
+  gap: 10px;
+  justify-content: flex-end;
+
+}
+.social-foo li{
+  list-style: none;
+}
