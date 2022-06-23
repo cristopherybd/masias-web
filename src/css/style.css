@@ -54,7 +54,7 @@ ul{
 .social-links li{
   list-style: none;
   border-left: 2px solid #fff;
-  min-width: 40px;
+  min-width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,6 +112,18 @@ ul{
   
  }
  
+ .btn-donar{
+  width: 180px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  font-size: 22px;
+  color: #000;
+  font-weight: 900;
+ }
+
+
+
 /* SLIDERS */
 .slider-home{
   display: flex;
