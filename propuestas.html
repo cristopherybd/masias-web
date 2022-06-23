@@ -60,17 +60,100 @@
 			<div class="sliders container">
 				<div class="row">
 					<div class="col-sm-6 d-flex flex-column justify-content-center">
-						<h3 style="font-size: 38px; color: #28A247; margin-bottom: 20px;">100 propuestas para San Isidro, el distrito del bienestar</h3>
+						<h3 style="font-size: 38px; color: #28A247; margin-bottom: 20px; font-weight: bold;">100 propuestas para San Isidro, el distrito del bienestar</h3>
 						<p style="font-size: 18px;"><strong style="font-size: 19px;">Seguros de salud gratuitos para mayores de 50 años. Dos piscinas olímpicas para Isidro. Revisa todas nuestras propuestas en este documento.</strong></br></br>Rellenar con la presentación del candidato. Debe ser algo emotivo, al mismo tiempo que se detalla su experiencia y sus proyectos más importantes. Hay que tomar en consideración el posicionamiento que se desea lograr.</br></br> Rellenar con la presentación del candidato. Hay que tomar en consideración el posicionamiento que se desea lograr. Rellenar con la presentación del candidato.</p>
-                        <a href="#" class="btn btn-primary">Descargar PDF</a>
+                        <button class="btn" style="width: 270px; height: 60px; background: #28A247 0% 0% no-repeat padding-box; border-radius: 6px; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 24px;" data-bs-toggle="modal" data-bs-target="#pdfModal">Descargar PDF</button>
 					</div>
 					<div class="col-sm-6 d-flex justify-content-center">
-						<img src="./src/img/" alt="">
+						<img src="./src/img/portada/portada.png" alt="" style="box-shadow: 0px 3px 13px #0000008A;">
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<style>
+		.comparte-tusideas{
+			background-color: rgb(0, 77, 128);
+			min-height: 100vh;
+		}
+	</style>
+	<section class="comparte-tusideas">
+		<div class="container">
+			<div class="row d-flex align-items-center " style="height: 100vh;">
+				<div class="col-sm-6">
+					<h2 style="color: #fff; margin-bottom: 25px;"><span>Comparte</span> tus ideas</h2>
+					<p style="font-size: 19px; color: #fff; margin-bottom: 51px;"><strong>Ayúdanos a mejorar nuestra propuesta. Para ello, queremos conocer tus necesidades como ciudadano y sanisidrino. Nuestro equipo de campaña estará al tanto.</strong></p>
+					<p style="font-size: 18px; color: #fff;">Tienes este formato a disposición para que puedas mandarnos tus ideas. Estamos seguros que nos aportará a nosotros y a nuestro distrito. Completar el texto con más cosas referente a este punto.<br><br> Tienes este formato a disposición para que puedas mandarnos tus ideas. Estamos seguros que nos aportará a nosotros y a nuestro distrito. Completar el texto con más cosas referente a este punto. Completar el texto con más cosas referente a este punto.</p>
+				</div>
+
+				<style>
+					input{
+						color: #fff !important;
+						background: #008097 0% 0% no-repeat padding-box !important;
+						border-radius: 6px !important;
+						opacity: 1 !important;
+						backdrop-filter: blur(30px) !important;
+						-webkit-backdrop-filter: blur(30px) !important;
+						padding: 21px 23px !important;
+					}
+					input::placeholder{
+						color: #FFFFFF !important;
+						opacity: 1 !important;
+						font-size: 19px;
+					}
+					textarea{
+						color: #fff !important;
+						background: #008097 0% 0% no-repeat padding-box !important;
+						border-radius: 6px !important;
+						opacity: 1 !important;
+						backdrop-filter: blur(30px) !important;
+						-webkit-backdrop-filter: blur(30px) !important;
+						padding: 21px 23px !important;
+					}
+					textarea::placeholder{
+						color: #FFFFFF !important;
+						opacity: 1 !important;
+						font-size: 19px;
+					}
+				</style>
+				<div class="col-sm-6 p-5">
+					<form action="">
+						<div class="row">
+							<div class="col-sm-12">
+								<input type="text" name="tema" id="tema" placeholder="Tema o asunto" class="form-control">
+							</div>
+							<div class="col-sm-12 mt-5">
+								<textarea name="mensaje" id="" cols="30" rows="10" placeholder="¡Explicanos a detalle!" class="form-control"></textarea>
+							</div>
+							<div class="col-sm-12 mt-3 d-flex justify-content-center align-items-center">
+								<button type="submit" class="btn btn-primary" style="width: 190px; background: #FFFFFF 0% 0% no-repeat padding-box !important; border-radius: 6px !important; color: #28A247 !important; padding: 19px 35px !important; font-size: 19px;">Enviar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">100 Propuestas de Masías</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<iframe src="https://drive.google.com/file/d/19p6_bUB8NEw0-4PuxNDKfXnuQL785GPc/preview" width="100%" height="100%" allow="autoplay"></iframe>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+		</div>
+	</div>
+
 
 	<footer>
 		<div class="container">
