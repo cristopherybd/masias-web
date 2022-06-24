@@ -142,6 +142,8 @@ ul{
 }
 .slider-img img{
   max-height: 720px;
+  display: flex;
+  justify-content: flex-end;
 }
 .slider-content{
   display: flex;
@@ -304,7 +306,9 @@ a{
   }
 }
 @media only screen and (max-width: 996px) {
-
+  .text-sobremi{
+    text-align: center !important;
+  }
   .card-style-3 {
     padding: 10px 20px;
     margin-top: 20px;
