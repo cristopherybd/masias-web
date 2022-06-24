@@ -294,6 +294,9 @@ footer{
 .open-menu{
   color: #fff;
 }
+a{
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 1199px) {
   .content-cards-events{
@@ -301,6 +304,19 @@ footer{
   }
 }
 @media only screen and (max-width: 996px) {
+
+  .card-style-3 {
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  .card-style-2{
+    padding: 20px !important;
+  }
+  .card-style-2 p{
+
+    width: 100% !important;
+  }
   .slider-content{
     text-align: center;
     align-items: center;
