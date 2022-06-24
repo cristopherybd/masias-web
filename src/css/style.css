@@ -307,7 +307,7 @@ footer{
     top: 0px;
   }
   .menu-links-principal{
-    display: none;
+    display: none;/*cambio*/
     position: fixed;
     top: 0px;
     left: 0px;
