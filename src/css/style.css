@@ -332,6 +332,29 @@ a{
     max-height: 80vh;
   }
 }
+
+@media only screen and (min-width: 1280px){
+  .logo a img {
+    height: 70px;
+  }
+  .logo {
+    min-height: 110px !important;
+    padding: 18px 33px !important;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px #0000003b;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: -49px !important;
+    opacity: 1;
+  }
+  .menu-principal {
+    width: 100% !important;
+    justify-content: end !important;
+  }
+  .menu-links-principal {
+    display: flex;
+    width: 82% !important;
+  }
+}
 @media only screen and (max-width:1539px){
   slider-content h2{
     font-size: 45px !important;
