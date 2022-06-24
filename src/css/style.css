@@ -315,6 +315,13 @@ a{
   text-decoration: none;
 }
 
+
+.btn-vermas{
+  margin-top: 20px;
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 1199px) {
   .content-cards-events{
     margin-bottom: 0px;
