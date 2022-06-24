@@ -310,6 +310,9 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  .slider-content h2{
+    font-size: 35px !important;
+  }
   h2{
     font-size: 35px !important;
   }
