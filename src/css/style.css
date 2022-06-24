@@ -192,7 +192,7 @@ h2 span{
 
 /* CARDS STYLES */
 .cards-1{
-  padding: 100px 0px;
+  padding: 100px 0px 20px 0px;
   
 }
 .fondo-edificio{
@@ -291,19 +291,29 @@ footer{
   background-color: #28A247;
   padding: 40px 0px;
   border-bottom: solid 20px #3A4442;
+  max-height: 30vh;
+}
+.footer-img1 img{
+  height: 70px;
 }
 .social-foo{
   display:flex;
   gap: 10px;
   justify-content: flex-end;
-
 }
 .social-foo li{
   list-style: none;
 }
-
+.social-foo li a img{
+  height: 35px;
+}
 .content-cards-events{
   margin-bottom: -217px;
+}
+.footer-follow{
+  color: #fff !important;
+  font-size: 25px !important;
+  text-align: end;
 }
 
 

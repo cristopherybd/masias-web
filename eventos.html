@@ -9,7 +9,10 @@
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./src/css/style.css">
+	<link rel="stylesheet" href="./src/plugins/calendar/main.min.css">
 	<script src="https://kit.fontawesome.com/83b2da6416.js" crossorigin="anonymous"></script>
+	<script src="./src/plugins/calendar/main.js"></script>
+	<script src="./src/plugins/calendar/locales/es.js"></script>
 </head>
 <body>
 
@@ -30,13 +33,14 @@
 			</div>
 		</div>
 		<div class="menu-prin">
-			<div class="container d-flex ">
+			<div class="container d-flex justify-content-between">
 				<div class="logo">
 					<a href="index.html">
-						<img src="./src/img/logo-ligth.png" alt="Logo">
+						<img src="./src/img/logo-ligth.png" class="logo-ligth" alt="Logo">
+						<img src="./src/img/logo-dark.png" class="logo-dark d-none" alt="Logo">
 					</a>
 				</div>
-				<div class="menu-principal ">
+				<div class="menu-principal">
 					<div class="sanguchito d-none">
 						<span class="open-menu"><i class="fa-solid fa-bars fa-xl"></i></span>
 					</div>
@@ -102,7 +106,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 footer-img1">
 					<img src="./src/img/logo-circular.png" alt="">
 					<img src="./src/img/escoba-circle.png" alt="">
 					<img src="./src/img/javier-f-e.png" alt="">
@@ -113,7 +117,7 @@
 						<li><a href="#"><img src="./src/img/redes-in.png" alt=""></a></li>
 						<li><a href="#"><img src="./src/img/redes-fb.png" alt=""></a></li>
 					</ul>
-					<h2 style="color: #fff; font-size: 32px; text-align: end;">¡Sígueme en mis redes sociales!</h2>
+					<h2 class="footer-follow">¡Sígueme en mis redes sociales!</h2>
 				</div>
 			</div>
 		</div>
