@@ -343,7 +343,7 @@ a{
   }
 }
 
-@media only screen and (max-width: 1390px){
+@media only screen and (max-width: 1400px){
   .logo a img {
     height: 70px;
   }
