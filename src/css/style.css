@@ -289,8 +289,47 @@ footer{
   margin-bottom: -217px;
 }
 
+
+/*SANGUCHITO*/
+.open-menu{
+  color: #fff;
+}
+
 @media only screen and (max-width: 1199px) {
   .content-cards-events{
     margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 996px) {
+  .close-menu{
+    display: block !important;
+    right: 0px;
+    top: 0px;
+  }
+  .menu-links-principal{
+    /*display: none;*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background: transparent #28A247 0% 0% no-repeat padding-box;
+    backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(30px);
+
+  }
+  .menu-links-principal ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-links-principal ul li a{
+    color: #000;
+  }
+  .menu-principal {
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .sanguchito{
+    display: block !important;
   }
 }
