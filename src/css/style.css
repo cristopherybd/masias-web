@@ -311,10 +311,10 @@ footer{
     align-items: center;
   }
   h2{
-    font-size: 35px;
+    font-size: 35px !important;
   }
   h2 span{
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   .text-top-header{
