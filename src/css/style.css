@@ -307,7 +307,7 @@ a{
 }
 @media only screen and (max-width: 996px) {
 
-  
+
   .text-sobremi{
     text-align: center !important;
   }
@@ -346,28 +346,36 @@ a{
     display: none !important;
   }
   .close-menu{
-    display: block !important;
-    right: 0px;
-    top: 0px;
+    display: flex !important;
+    justify-content: end;
+
   }
   .menu-links-principal{
-    display: none;/*cambio*/
+    z-index: 100;
+    flex-direction: column;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100vh;
-    background: transparent #28A247 0% 0% no-repeat padding-box;
-    backdrop-filter: blur(30px);
--webkit-backdrop-filter: blur(30px);
+    background-color: #fff;
 
   }
   .menu-links-principal ul{
     display: flex;
     flex-direction: column;
+    
+  }
+  .menu-links-principal ul li{
+    border-bottom: solid 2px #000;
+    margin-bottom: 6px;
+  }
+  .menu-links-principal ul li:nth-last-child(){
+    margin-bottom: 0px !important;
   }
   .menu-links-principal ul li a{
     color: #000;
+    
   }
   .menu-principal {
     justify-content: flex-end;
