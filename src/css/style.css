@@ -129,6 +129,10 @@ ul{
   display: flex;
   min-height: 88vh;
   background-color: #dddddd;
+  background-image: url('../img/background/slider-1-home.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .sliders{
   padding-top: 100px;
@@ -173,6 +177,18 @@ h2 span{
 /* CARDS STYLES */
 .cards-1{
   padding: 100px 0px;
+  
+}
+.fondo-edificio{
+  background-image: url('../img/background/fondo-edificios.png');
+  background-position: center;
+  background-size: cover; 
+}
+.fondo-regidores{
+  background-image: url('../img/background/fondo-regidores.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; 
 }
 .card-style-1{
   display: flex;
@@ -184,7 +200,7 @@ h2 span{
   border-radius: 9px;
   padding: 30px;
   margin-right: 30px;
-  width: calc(93% / 3);
+  background-color: #fff;
 }
 .card-style-1:hover{
   height: 400px;
@@ -198,7 +214,9 @@ h2 span{
   padding: 50px 90px;
   box-shadow: 0px 0px 19px #00000061;
   border-radius: 4px;
-  background-color: #33964C;
+  background-image: url('../img/background/education-concept-books-and-laptop-at-library.png');
+  background-position: center;
+  background-size: cover;
   display: flex;
 }
 .card-style-2 p{
@@ -265,4 +283,14 @@ footer{
 }
 .social-foo li{
   list-style: none;
+}
+
+.content-cards-events{
+  margin-bottom: -217px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .content-cards-events{
+    margin-bottom: 0px;
+  }
 }
